@@ -30,6 +30,6 @@ To reproduce the results, please run the following:
                                      ./run_training_calibration.sh
                                      
 
-* Then, collect results according to EQ1 by running the following script and replace dataname with "bpic2012" or "bpic2017". 
+* Collect results according to EQ1 by running the following script and replace dataname with "bpic2012" or "bpic2017". 
 
                                      python  plot_EQ1.py <dataname>
