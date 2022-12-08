@@ -1,7 +1,7 @@
 # Intervening With Confidence: Conformal Prescriptive Monitoring of Business Processes
 
 This project contains supplementary material for the article ["Intervening With Confidence: Conformal
-Prescriptive Monitoring of Business Processes"](https://deepai.org/publication/when-to-intervene-prescriptive-process-monitoring-under-uncertainty-and-resource-constraints) by [Mahmoud Shoush](https://scholar.google.com/citations?user=Jw4rBlkAAAAJ&hl=en) and [Marlon Dumas](https://kodu.ut.ee/~dumas/). We propose a prescriptive process monitoring approach that relies on conformal prediction to learn when to intervene in order to maximize a gain function when resources are limited.
+Prescriptive Monitoring of Business Processes"](https://arxiv.org/abs/2212.03710) by [Mahmoud Shoush](https://scholar.google.com/citations?user=Jw4rBlkAAAAJ&hl=en) and [Marlon Dumas](https://kodu.ut.ee/~dumas/). We propose a prescriptive process monitoring approach that relies on conformal prediction to learn when to intervene in order to maximize a gain function when resources are limited.
 
 
 The proposed method consists of three main phases, training, calibration, and testing—In the training phase, we clean and enrich the event log and use it to train predictive and causal models. In the calibration phase, we use an Inductive Conformal Prediction (ICP) algorithm to produce predictions with a guaranteed level of confidence. While the testing phase show how to operationalize the proposed approach during runtime, and it includes filtering, ranking, and a resource allocator.
