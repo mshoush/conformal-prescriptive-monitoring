@@ -16,3 +16,5 @@ python orf.py "bpic2017" results_orf ;
 echo "Start Conformal...";
 python conformal_prediction.py bpic2012 &
 python conformal_prediction.py bpic2017 ;
+echo "RUN ALL"
+./run_fixed30.sh

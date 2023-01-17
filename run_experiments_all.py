@@ -48,13 +48,13 @@ else:
 
 
 if data_name =="naive":
-    data = pd.read_csv("/home/centos/conformal_prediction/prescriptive-monitoring-uncertainty/predictive_model/results_pred_v1/%s/df_final_naive_all.csv"%data_name2, sep=';')
+    data = pd.read_csv("./results_conformal/%s/df_final_naive_all.csv"%data_name2, sep=';')
     pass
 elif data_name == "classBalanced":
-    data = pd.read_csv("/home/centos/conformal_prediction/prescriptive-monitoring-uncertainty/predictive_model/results_pred_v1/%s/df_final_classBalanced_all.csv"%data_name2, sep=';')
+    data = pd.read_csv("./results_conformal/%s/df_final_classBalanced_all.csv"%data_name2, sep=';')
     pass
 elif data_name == "adaptive":
-    data = pd.read_csv("/home/centos/conformal_prediction/prescriptive-monitoring-uncertainty/predictive_model/results_pred_v1/%s/df_final_adaptive_all.csv"%data_name2, sep=';')
+    data = pd.read_csv("./results_conformal/%s/df_final_adaptive_all.csv"%data_name2, sep=';')
     pass
 else:
     print("No Valid Data")
@@ -77,7 +77,7 @@ else:
     folder = "results_exp/%s/%s/"%(data_name2, data_name)
 
 
-results_dir = "./res_cp_v20_final_uncer/" + folder + mode +"_"+condition+"_"+alha_col_val+"_" + str(cost_t1)+"/"+str(uncer_thre)+"/"
+results_dir = "./results_runtime/" + folder + mode +"_"+condition+"_"+alha_col_val+"_" + str(cost_t1)+"/"+str(uncer_thre)+"/"
 if not os.path.exists(os.path.join(results_dir)):
     os.makedirs(os.path.join(results_dir))
 
