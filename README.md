@@ -34,7 +34,7 @@ To reproduce the results, please run the following:
 
                                      python  plot_EQ1.py <dataname>
                                      
-* Collect results according to EQ2 by running the following "plot_paper_all.ipynb" notebook.  
+* Collect results according to EQ2 by running the following "plot_EQ2.ipynb" notebook.  
 
                                      
                                      
