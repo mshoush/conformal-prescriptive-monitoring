@@ -24,7 +24,7 @@ To reproduce the results, please run the following:
 
 * Next, download the data from the abovementioned link
 
-* Then run the following shell script to start experiments w.r.t the training, calibration phases.
+* Then run the following shell script to start experiments w.r.t the training, calibration, and testing phases.
 
 
                                      ./run_training_calibration.sh
@@ -33,3 +33,9 @@ To reproduce the results, please run the following:
 * Collect results according to EQ1 by running the following script and replace dataname with "bpic2012" or "bpic2017". 
 
                                      python  plot_EQ1.py <dataname>
+                                     
+* Collect results according to EQ1 by running the following script and replace dataname with "bpic2012" or "bpic2017". 
+
+                                     python  plot_EQ1.py <dataname>
+                                     
+                                     
