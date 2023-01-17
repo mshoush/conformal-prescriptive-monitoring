@@ -34,8 +34,7 @@ To reproduce the results, please run the following:
 
                                      python  plot_EQ1.py <dataname>
                                      
-* Collect results according to EQ1 by running the following script and replace dataname with "bpic2012" or "bpic2017". 
+* Collect results according to EQ2 by running the following "plot_paper_all.ipynb" notebook.  
 
-                                     python  plot_EQ1.py <dataname>
                                      
                                      
